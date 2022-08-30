@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Anek Telugu", sans-serif;
+}
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.sag a {
+  padding: 15px;
+  text-decoration: none;
+}
+.sag a:hover {
+  color: burlywood;
+}
+.sag {
+  margin-top: 25px;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+#hom {
+  background-color: #f0d1d1;
+  padding: 25px 15px 21px 15px;
+}
+header > img {
+  width: 70px;
+  height: 70px;
+  margin-left: 10%;
+}
+
+.foto1 img {
+  width: 100%;
+}
+div.foto1 {
+  position: relative;
+}
+div.title {
+  position: absolute;
+  margin-left: 10%;
+  bottom: 35%;
+}
+h1 {
+  color: white;
+  font-size: 63px;
+}
+.alt {
+  font-size: 21px;
+  color: white;
+}
+.title a {
+  color: white;
+  background-color: #ffa500;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.foto3 {
+  display: flex;
+}
+.yazi {
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+}
+.yazi > p {
+  font-size: 21px;
+  color: #959595;
+}
+.yazi > h2 {
+  font-size: 40px;
+  color: #dd845a;
+}
+.mid1 {
+  background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/mung_beans.jpg);
+  width: 33.333333%;
+  height: 200px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.mid2 {
+  background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/coffee_beans_1.jpg);
+  width: 33.3333333%;
+  height: 200px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.mid3 {
+  background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/grapes.jpg);
+  width: 33.33333333%;
+  height: 200px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.mid1:hover {
+  scale: 105%;
+  transition: 0.5s;
+}
+.mid2:hover {
+  scale: 105%;
+  transition: 0.5s;
+}
+.mid3:hover {
+  scale: 105%;
+  transition: 0.5s;
+}
+.cart {
+  display: flex;
+  justify-content: space-around;
+}
+.baslik {
+  text-align: center;
+  padding: 30px;
+  color: #dd845a;
+  font-size: 36px;
+}
+.foto3 .orta {
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  font-size: 45px;
+}
+.cart1,
+.cart2,
+.cart3,
+.cart4 {
+  border: 1px solid rgb(115, 106, 106);
+  margin-left: 10px;
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #dd845a;
+  border-radius: 15px;
+}
+.cart img {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.cart p {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 1rem;
+  color: black;
+}
+.line {
+  text-decoration: line-through;
+}
+.cart input {
+  height: 35px;
+  width: 115px;
+  margin: 0;
+}
+.cart .but {
+  background-color: #ffa500;
+  border: none;
+}
+.cart .but:hover {
+  background-color: #dd845a;
+  transition: 0.5s;
+  color: white;
+}
+.visual {
+  text-align: center;
+  margin-top: 50px;
+}
+.visual h2 {
+  color: #dd845a;
+  font-size: 36px;
+}
+.visual p {
+  color: #959595;
+  font-size: 21px;
+}
+.visual img {
+  border-radius: 50%;
+}
+.find h2 {
+  color: #dd845a;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.adress,
+.find p {
+  color: #959595;
+  font-size: 21px;
+  text-align: center;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f4f4;
+  padding: 20px;
+}
+
+.foot > div > button {
+  background-color: #dd845a;
+}
+.foot ul {
+  list-style-type: none;
+  color: rgba(0, 0, 0, 0.247);
+}
+.foot ul a {
+  text-decoration: none;
+}
+.foot ul a:hover {
+  color: #ffa500;
+  transition: 0.5s;
+}
+.alt a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #ffa500;
+}
+.alt a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.alt {
+  /* display: flex; */
+
+  text-align: center;
+}
